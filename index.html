@@ -1,0 +1,102 @@
+<!-- Tried To Look Like https://www.cnn.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./vite.svg" type="image/x-icon" />
+    <title>News Website</title>
+    <link rel="stylesheet" href="./build/stylesheets/index.css" />
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+  <body>
+    <div class="wrapper" id="app">
+      <header>
+        <div class="ad">
+          <p>ad</p>
+          <button id="ad-close">X</button>
+        </div>
+
+        <nav>
+          <ul>
+            <button class="menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#fff"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </button>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#us">US</a></li>
+            <li><a href="#world">World</a></li>
+            <li><a href="#politics">Politics</a></li>
+            <li><a href="#business">Business</a></li>
+            <li><a href="#more">More</a></li>
+          </ul>
+          <ul>
+            <li><a href="#login">Log in</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="#live-tv">Live TV</a></li>
+            <li><a href="#audio">Audio</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="menu-dropdown hidden">
+        <input type="text" placeholder="Search Website.." />
+      </div>
+      <main>
+        <section class="current-events">
+          <h2><span>LIVE UPDATES:</span> Lorem, ipsum dolor.</h2>
+          <h2><span>TRENDING:</span> Lorem, ipsum dolor.</h2>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+        </section>
+        <div data-="3 columns">
+          <section class="col-1">
+            <h3>Lorem ipsum dolor sit.</h3>
+            <img
+              src="./images/building.jpg"
+              alt="img of a building near water"
+            />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            adipisci libero sed eius illo labore, recusandae laboriosam saepe
+            atque, vitae repudiandae eum laborum error? Error sed maxime hic
+            consequatur vitae asperiores magni cupiditate doloribus, dolores est
+            eligendi recusandae repellendus temporibus assumenda obcaecati amet
+            nobis. Nesciunt recusandae facilis itaque animi esse?
+          </section>
+          <section class="col-2">
+            <h3>Lorem ipsum dolor sit.</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            adipisci libero sed eius illo labore, recusandae laboriosam saepe
+            atque, vitae repudiandae eum laborum error? Error sed maxime hic
+            consequatur vitae asperiores magni cupiditate doloribus, dolores est
+            eligendi recusandae repellendus temporibus assumenda obcaecati amet
+            nobis. Nesciunt recusandae facilis itaque animi esse?
+          </section>
+          <section class="col-3">
+            <h3>Lorem ipsum dolor sit.</h3>
+            <img src="./images/mountain.jpg" alt="img of a hiker mountain" />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            adipisci libero sed eius illo labore, recusandae laboriosam saepe
+            atque, vitae repudiandae eum laborum error? Error sed maxime hic
+            consequatur vitae asperiores magni cupiditate doloribus, dolores est
+            eligendi recusandae repellendus temporibus assumenda obcaecati amet
+            nobis. Nesciunt recusandae facilis itaque animi esse?
+          </section>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
