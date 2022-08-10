@@ -27,4 +27,4 @@ dist-ssr
 
 
 
-../src/stylesheets
+./src/stylesheets  
