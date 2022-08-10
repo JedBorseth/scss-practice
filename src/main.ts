@@ -1,7 +1,7 @@
 "use strict";
-const closeAd: any = document.getElementById("ad-close");
-const menu: any = document.querySelector(".menu");
-const menuEl: any = document.querySelector(".menu-dropdown");
+const closeAd: HTMLElement = document.getElementById("ad-close");
+const menu: HTMLElement = document.querySelector(".menu");
+const menuEl: HTMLElement = document.querySelector(".menu-dropdown");
 let i = 0;
 
 menu.addEventListener("click", () => {
